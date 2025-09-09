@@ -1,6 +1,4 @@
-#  Git Commands (DevOps Unit 2)
-
-A quick reference guide for essential Git commands.
+#  Git Commands 
 
 ---
 
