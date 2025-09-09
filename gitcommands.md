@@ -1,17 +1,17 @@
-# 📘 Git Commands (DevOps Unit 2)
+#  Git Commands (DevOps Unit 2)
 
 A quick reference guide for essential Git commands.
 
 ---
 
-## 🔹 Check Git Version
+## Check Git Version
 ```bash
 git --version
 ```
 
 ---
 
-## 🔹 Configure Git (Global)
+## Configure Git (Global)
 ```bash
 git config --global user.name "xyz"
 ```
@@ -21,7 +21,7 @@ git config --global user.email "xyz@gmail.com"
 
 ---
 
-## 🔹 Configure Git (Local)
+## Configure Git (Local)
 ```bash
 git config user.name "xyz"
 ```
@@ -31,49 +31,49 @@ git config user.email "xyz@gmail.com"
 
 ---
 
-## 🔹 Create Local Repository
+## Create Local Repository
 ```bash
 git init
 ```
 
 ---
 
-## 🔹 Untrack Repository
+## Untrack Repository
 ```bash
 rm -rf .git
 ```
 
 ---
 
-## 🔹 Add Remote Repository
+## Add Remote Repository
 ```bash
 git remote add origin "URL-of-Remote-Repository"
 ```
 
 ---
 
-## 🔹 Pull from Remote (if not empty)
+## Pull from Remote (if not empty)
 ```bash
 git pull origin master
 ```
 
 ---
 
-## 🔹 Remove Remote Repository
+## Remove Remote Repository
 ```bash
 git remote remove origin
 ```
 
 ---
 
-## 🔹 Check Remote Repositories
+## Check Remote Repositories
 ```bash
 git remote -v
 ```
 
 ---
 
-## 🔹 Create File
+##  Create File
 ```bash
 vi newfile.txt
 ```
@@ -83,21 +83,21 @@ vi ignore.txt
 
 ---
 
-## 🔹 Ignore File
+## Ignore File
 ```bash
 echo "ignore.txt" >> .gitignore
 ```
 
 ---
 
-## 🔹 Check Status
+## Check Status
 ```bash
 git status
 ```
 
 ---
 
-## 🔹 Add Files to Staging
+## Add Files to Staging
 ```bash
 git add filename.txt
 ```
@@ -110,7 +110,7 @@ git add .
 
 ---
 
-## 🔹 Remove Files from Staging
+##  Remove Files from Staging
 ```bash
 git reset filename.txt
 ```
@@ -120,56 +120,56 @@ git reset
 
 ---
 
-## 🔹 View Changes
+## View Changes
 ```bash
 git diff
 ```
 
 ---
 
-## 🔹 Commit Changes
+## Commit Changes
 ```bash
 git commit -m "commit message"
 ```
 
 ---
 
-## 🔹 View Commit History
+## View Commit History
 ```bash
 git log
 ```
 
 ---
 
-## 🔹 Pull from Remote
+## Pull from Remote
 ```bash
 git pull origin master
 ```
 
 ---
 
-## 🔹 Push to Remote
+## Push to Remote
 ```bash
 git push origin master
 ```
 
 ---
 
-## 🔹 Create Branch
+## Create Branch
 ```bash
 git branch newbranch
 ```
 
 ---
 
-## 🔹 Switch Branch
+## Switch Branch
 ```bash
 git checkout branch-name
 ```
 
 ---
 
-## 🔹 List Branches
+## List Branches
 ```bash
 git branch
 ```
@@ -179,7 +179,7 @@ git branch -a
 
 ---
 
-## 🔹 Push Branch to Remote
+##  Push Branch to Remote
 ```bash
 git push origin branch-name
 ```
@@ -189,7 +189,7 @@ git push --all origin
 
 ---
 
-## 🔹 Merge Branch into Master
+## Merge Branch into Master
 ```bash
 git checkout master
 ```
@@ -202,7 +202,7 @@ git merge mergebranch
 
 ---
 
-## 🔹 Rebase Branch into Master
+##  Rebase Branch into Master
 ```bash
 git checkout master
 ```
@@ -212,35 +212,35 @@ git rebase rebasebranch
 
 ---
 
-## 🔹 Delete Branch (Local)
+##  Delete Branch (Local)
 ```bash
 git branch -d branch-name
 ```
 
 ---
 
-## 🔹 Delete Branch (Remote)
+##  Delete Branch (Remote)
 ```bash
 git push origin --delete branch-name
 ```
 
 ---
 
-## 🔹 Undo Changes
+##  Undo Changes
 ```bash
 git checkout filename.txt
 ```
 
 ---
 
-## 🔹 Amend Last Commit
+## Amend Last Commit
 ```bash
 git commit --amend -m "Updated Message"
 ```
 
 ---
 
-## 🔹 Reset Commits
+## Reset Commits
 ```bash
 git reset --soft commit-hash
 ```
@@ -253,14 +253,14 @@ git reset --hard commit-hash
 
 ---
 
-## 🔹 Clean Untracked Files
+## Clean Untracked Files
 ```bash
 git clean -df
 ```
 
 ---
 
-## 🔹 Reflog & Recovery
+##  Reflog & Recovery
 ```bash
 git reflog
 ```
@@ -273,21 +273,21 @@ git branch backup
 
 ---
 
-## 🔹 Revert Commit
+##  Revert Commit
 ```bash
 git revert commit-hash
 ```
 
 ---
 
-## 🔹 Diff Commits
+##  Diff Commits
 ```bash
 git diff commit1-hash commit2-hash
 ```
 
 ---
 
-## 🔹 Stash Changes
+## Stash Changes
 ```bash
 git stash save "message"
 ```
@@ -309,7 +309,7 @@ git stash clear
 
 ---
 
-## 🔹 Diff Tool
+## Diff Tool
 ```bash
 git difftool master
 ```
@@ -322,7 +322,7 @@ git difftool origin/master
 
 ---
 
-## 🔹 Clone Repository
+## Clone Repository
 ```bash
 git clone "URL-of-Remote-Repository"
 ```
