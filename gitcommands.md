@@ -1,15 +1,14 @@
 #  Git Commands 
-
 ---
 
-## Check Git Version
+##  Check Git Version
 ```bash
 git --version
 ```
 
 ---
 
-## Configure Git (Global)
+##  Configure Git (Global)
 ```bash
 git config --global user.name "xyz"
 ```
@@ -19,7 +18,7 @@ git config --global user.email "xyz@gmail.com"
 
 ---
 
-## Configure Git (Local)
+##  Configure Git (Local)
 ```bash
 git config user.name "xyz"
 ```
@@ -29,42 +28,42 @@ git config user.email "xyz@gmail.com"
 
 ---
 
-## Create Local Repository
+##  Create Local Repository
 ```bash
 git init
 ```
 
 ---
 
-## Untrack Repository
+##  Untrack Repository
 ```bash
 rm -rf .git
 ```
 
 ---
 
-## Add Remote Repository
+##  Add Remote Repository
 ```bash
 git remote add origin "URL-of-Remote-Repository"
 ```
 
 ---
 
-## Pull from Remote (if not empty)
+##  Pull from Remote (if not empty)
 ```bash
-git pull origin master
+git pull origin main
 ```
 
 ---
 
-## Remove Remote Repository
+##  Remove Remote Repository
 ```bash
 git remote remove origin
 ```
 
 ---
 
-## Check Remote Repositories
+##  Check Remote Repositories
 ```bash
 git remote -v
 ```
@@ -81,21 +80,21 @@ vi ignore.txt
 
 ---
 
-## Ignore File
+##  Ignore File
 ```bash
 echo "ignore.txt" >> .gitignore
 ```
 
 ---
 
-## Check Status
+##  Check Status
 ```bash
 git status
 ```
 
 ---
 
-## Add Files to Staging
+##  Add Files to Staging
 ```bash
 git add filename.txt
 ```
@@ -118,56 +117,56 @@ git reset
 
 ---
 
-## View Changes
+##  View Changes
 ```bash
 git diff
 ```
 
 ---
 
-## Commit Changes
+##  Commit Changes
 ```bash
 git commit -m "commit message"
 ```
 
 ---
 
-## View Commit History
+##  View Commit History
 ```bash
 git log
 ```
 
 ---
 
-## Pull from Remote
+##  Pull from Remote
 ```bash
-git pull origin master
+git pull origin main
 ```
 
 ---
 
-## Push to Remote
+##  Push to Remote
 ```bash
-git push origin master
+git push origin main
 ```
 
 ---
 
-## Create Branch
+##  Create Branch
 ```bash
 git branch newbranch
 ```
 
 ---
 
-## Switch Branch
+##  Switch Branch
 ```bash
 git checkout branch-name
 ```
 
 ---
 
-## List Branches
+##  List Branches
 ```bash
 git branch
 ```
@@ -187,12 +186,12 @@ git push --all origin
 
 ---
 
-## Merge Branch into Master
+##  Merge Branch into Main
 ```bash
-git checkout master
+git checkout main
 ```
 ```bash
-git pull origin master
+git pull origin main
 ```
 ```bash
 git merge mergebranch
@@ -200,9 +199,9 @@ git merge mergebranch
 
 ---
 
-##  Rebase Branch into Master
+##  Rebase Branch into Main
 ```bash
-git checkout master
+git checkout main
 ```
 ```bash
 git rebase rebasebranch
@@ -231,14 +230,14 @@ git checkout filename.txt
 
 ---
 
-## Amend Last Commit
+##  Amend Last Commit
 ```bash
 git commit --amend -m "Updated Message"
 ```
 
 ---
 
-## Reset Commits
+##  Reset Commits
 ```bash
 git reset --soft commit-hash
 ```
@@ -251,7 +250,7 @@ git reset --hard commit-hash
 
 ---
 
-## Clean Untracked Files
+##  Clean Untracked Files
 ```bash
 git clean -df
 ```
@@ -285,7 +284,7 @@ git diff commit1-hash commit2-hash
 
 ---
 
-## Stash Changes
+##  Stash Changes
 ```bash
 git stash save "message"
 ```
@@ -307,20 +306,20 @@ git stash clear
 
 ---
 
-## Diff Tool
+##  Diff Tool
 ```bash
-git difftool master
+git difftool main
 ```
 ```bash
 git difftool commit1 commit2
 ```
 ```bash
-git difftool origin/master
+git difftool origin/main
 ```
 
 ---
 
-## Clone Repository
+##  Clone Repository
 ```bash
 git clone "URL-of-Remote-Repository"
 ```
